@@ -8,13 +8,13 @@ h1 {
 }
 
 #block_container {
-	max-width: 90%;
+	width: 90%;
 	margin: auto;
 	position:relative;/*position: relative;*/
 }
 
 section {
-	max-width: 30%;
+	max-width: 33%;
 	border: 3px solid black;
 	padding: 5px;
 	margin-right: 5px;
@@ -59,8 +59,9 @@ section.sect2_float_middle {
 	position: absolute;
 	clear: both;
 	float: right;
-	left: 35%;
+	left: 33.3%;
 	background-color: blue;
+	
 }	
 
 .sect2_float_middle > h2 {
@@ -79,14 +80,13 @@ section.sect3_float_right {
 	position: absolute;
 	clear: both;
 	float: right;
-	right: 0%;
+	left: 66.6%;
 	background-color: black;
 }
 
 .sect3_float_right > h2 {
 	background-color: aqua;
 	color: blue;
-	font-size: ;
 }
 
 .sect3_float_right p {
@@ -95,37 +95,32 @@ section.sect3_float_right {
 	color: orange;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
-	.sect1_small_screen{
+	.col_small_12 {
 		position: relative;
-		float: left;
-		max-width: 85%;
-		margin: auto;
+		width: 99.9%;
 	}
 
-	.sect2_small_screen{
-		position: absolute;
-		clear: both;
-		float: left;
-		top: ;
-		max-width: 85%;
+/* -------------Medium Devices--------- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
-	}
-
-	.sect3_small_screen{
-		position: absolute;
-		float: left;
-		max-width: 85%;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
+		.col_md_6 {
+			float: left;
+			border: 1px solid green;
+			width: 49.95%;
+			margin-right: 5px;
+		}
 
 }
 
-@media (min-width: (992px) {
-
+/* -------------Large scree-------------- */
+@media screen and (min-width: (992px) {
+	.col_lg_4 {
+		float: left;
+		border: 1 px solid green;
+		width: 33%;
+		margin-right: 5px;
+	}
 }
-
+}
