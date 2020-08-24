@@ -25,13 +25,13 @@ h2 {
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	border: 1px solid red;
+	border: 1px solid black;
 	margin-top: 0px;
 	padding: 0px 20px 0px 20px;
 }
 
 section {
-	border: 1px solid red;
+	border: 1px solid black;
 }
 
 .block_1 {
@@ -51,7 +51,7 @@ section {
 }
 
 .block_3 {
-		background-color: black;
+		background-color: #bbc9c6;
 		height: auto;
 		margin: auto;
 		position: relative;
@@ -90,7 +90,7 @@ section {
 }
 
 .block_3 p {
-	color: orange;
+	color: #0000ff;
 	font-size: 18px;
 	font-family: 'Times New Roman', serif;
 	padding: 30px 5px 5px 5px;
