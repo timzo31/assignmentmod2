@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#body-container.container {
+	background-color: #b3ebf0;
+	height: 1000px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #1e2222;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.6em;
+	position: relative;
+	float: left;
+	
+}
+.navbar-brand span {
+	text-transform: uppercase;
+}
+.navbar-toggle {
+	clear: right;
+	float: right;
+	position: absolute;
+	right: 30px;
+	margin-top: 25px;
+	padding: 9px 10px;
+	height: 35px;
+	width: 25px;
+	border: 2px solid brown;
+	border-radius: 5px;
+	background-color: #eee5df;
+}
+.navbar-toggle:hover, .navbar-toggle:focus {
+	background-color: #99ffff;
+	
+}
+.navbar-toggle:active {
+	opacity: .7;
+}
+.icon-bar {
+	color: white;
+}
+
+
+#nav-list {
+	background-color: ;
+	text-align: center;
+	
+}
+#nav-list li {
+	width: 100%;
+/*	border: 1px groove #1c6ba3;
+	border-radius: 5px 10px 5px 10px;	*/
+}
+#nav-list li a {
+	font-size: 1.2em;
+	color: #f26722;
+	font-weight: bold;
+}
+
+#nav-list li a:hover, #nav-list li a:focus {
+	text-decoration: none;
+	background-color: #ffffff;
+	opacity: .9;
+}
+
+hr {
+	color: white;
+	margin: 5px;
+}
+
+#collapsable-vav ul li a::hover {
+	background-color: #fff;
+}
+/*** --------------- END OF THE HEADER --------***/
+
+/**  HOME PAGE **/
+
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 31.5px;
+	color: #ff0000;
+	padding: 15px 20px 10px 20px;
+	font-weight: bold;
+}
+
+h2 {
+	text-transform: capitalize;
+	font-size: 22.5px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 0px 20px 0px 20px;
+}
+
+section {
+	border: 1px solid black;
+}
+
+.block_1 {
+		background-color: orange;
+		height: auto;
+		margin-right:;
+		position: relative;
+		margin-bottom: 5px;
+}
+
+.block_2 {
+		background-color: blue;
+		height: auto;
+		margin: auto;
+		position: relative;
+		margin-bottom: 5px;
+}
+
+.block_3 {
+		background-color: #bbc9c6;
+		height: auto;
+		margin: auto;
+		position: relative;
+		margin-bottom: 5px;
+}
+
+.block_1  h2 {
+	color: black;
+	background-color: #8cc9be;
+}
+
+.block_2  h2 {
+	font-size: 22.5px;
+	color: orange;
+	background-color: #a1e898;	
+}
+
+.block_3  h2 {
+	font-size: 22.5px;
+	color: green;
+	background-color: #e8b6e2;
+}
+
+.block_1 p {
+	color: #000000;
+	font-size: 18px;
+	font-family: 'Times New Roman', serif;
+	padding: 30px 5px 5px 5px;
+}
+
+.block_2 p {
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Times New Roman', serif;
+	padding: 30px 5px 5px 5px;
+}
+
+.block_3 p {
+	color: #0000ff;
+	font-size: 18px;
+	font-family: 'Times New Roman', serif;
+	padding: 30px 5px 5px 5px;
+}
+
+
+/* END HOME PAGE */
+
+/********** Tablette and Desktop **********/
+@media (min-width: 768px) {
+  	/* ---Memu Button */
+  	.navbar-toggle {
+  		display: none;
+  	}  /* --- End Memu Button */
+  	#nav-list {
+  		display: none;
+  	}
+
+  	/**  HOME PAGE **/
+
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 572px) and (max-width: 767px) {
+  /* Header */
+  /* ---Memu Button */
+  	.navbar-toggle {
+  		display: none;
+  	}  /* --- End Memu Button */
+  	#nav-list {
+  		display: none;
+  	}
+ 
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  /* End Header */
+  
+}
+
+
+
+
+
