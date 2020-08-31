@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta hhtp-equiv="X-UA-Compatible" content="IE-=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<title>David Chu's China Bistrot</title>
-<!--	<link rel="stylesheet" href="css/bootstrap.min.css">  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+	<title>Module3_Solution</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 <!--  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> 
@@ -14,15 +14,15 @@
 </head>
 <body>
 	<header>
-    <nav id="header-nav" class="navbar navbar-default visible-xs">
-      <div class="container">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container"> 
         <div class="navbar-header">
           
-          <div class="navbar-brand">
-            <a href="index.html"><h1>Food, <span>LLC</span></h1></a>
+          <div class="navbar-brand pull-left">
+            <a href="index.html" class=""><h1>Food, <span>LLC</span></h1></a>
           </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -30,9 +30,8 @@
           </button>
         </div>
 
-        <hr class="visible-xs">
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
             
             <li class="visible-xs">
               <a href="#chicken">Chicken</a>
@@ -45,26 +44,33 @@
             <li>
               <a href="#sushi">Sushi</a>
             </li>
+              <hr class="hr-light">
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
+      </div> <!-- container -->
     </nav><!-- #header-nav -->
   </header>
   
   	<div class="container" id="body-container">
-  		<h1>our menu</h1>
+  		<h1 id="menu">our menu</h1>
   		<div class="row">
   			<section id="chicken" class="block_1 col-md-12 col-sm-12 col-xs-12">
-				<h2>chicken</h2>
+				<h3 class="text-center">chicken</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <a href="#menu" class="back-menu">Back to the menu</a>
 			</section>
 			<section id="beef" class="block_2 col-md-12 col-sm-12 col-xs-12">
-				<h2>beef</h2>
+				<h3 class="text-center">beef</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <a href="#menu" class="back-menu">Back to the menu</a>
 			</section>
 			<section id="sushi" class="block_3 col-md-12 col-sm-12 col-xs-12">
-				<h2>sushi</h2>
+				<h3 class="text-center">sushi</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. </p>
+        <a href="#menu" class="back-menu">Back to the menu</a>
 			</section>
 
   		</div>
@@ -79,11 +85,13 @@
 	<!-- jQuery (Bootstrap JS plugins depend on it) -->
 
 	<script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.12'><\/script>".replace("HOST", location.hostname));
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.26.12'></script>".replace("HOST", location.hostname));
 //]]></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
