@@ -9,9 +9,9 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 .container {
-	
+	margin-top: 0px;
+	padding: ;
 }
-
 #body-container.container {
 	background-color: #b3ebf0;
 	height: 1000px;
@@ -22,64 +22,32 @@ body {
   border-radius: 0;
   border: 0;
 }
-
 .navbar-brand h1 {
 	font-weight: bold;
 	color: #fff;
 	font-size: 1.6em;
-	/*position: relative;
-	float: left;*/
-	
+	margin-top: -22px;
+	text-decoration: none;
 }
 .navbar-brand span {
 	text-transform: uppercase;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #61122f;
+	border: 1px solid #fff;
 }
-/*.navbar-toggle {
-	clear: right;
-	float: right;
-	position: absolute;
-	right: 30px;
-	margin-top: 20px;
-	padding: 7px 8px;
-	width: 30px;
-	height: 35px;
-	
-	border: 2px solid brown;
-	border-radius: 3px;
-	background-color: #eee5df;
-}
-.navbar-toggle:hover, .navbar-toggle:focus {
-	background-color: #99ffff;
-	
-}
-.navbar-toggle:active {
-	opacity: .7;
-}
-.icon-bar {
-	color: black;
-}*/
-
-
 #nav-list {
 	background-color: #e7e7e7;
 	text-align: center;
-	width: 100%;
 }
 #nav-list li {
-	
-/*	border: 1px groove #1c6ba3;
-	border-radius: 5px 10px 5px 10px;	*/
+	width: 100%;
 }
 #nav-list li a {
 	font-size: 1.2em;
 	color: #f26722;
 	font-weight: bold;
 }
-
-#nav-list li a:hover, #nav-list li a:focus {
+#nav-list li a:hover, #nav-list li a:focus, #nav-list li:hover {
 	text-decoration: none;
 	background-color: #ffff00;
 	opacity: .9;
@@ -99,11 +67,10 @@ hr {
 /**  HOME PAGE **/
 
 h1 {
-	text-align: center;
 	text-transform: capitalize;
 	font-size: 31.5px;
 	color: #ff0000;
-	padding: 15px 20px 10px 20px;
+	padding: 5px 15px 5px 15px;
 	font-weight: bolder;
 }
 
@@ -159,43 +126,15 @@ h3 {
 }
 /* END HOME PAGE */
 
-/********** Tablette and Desktop **********/
-@media (min-width: 768px) {
-  	/* ---Memu Button */
-  	.navbar-toggle {
-  		display: none;
-  	}  /* --- End Memu Button */
-  	#nav-list {
-  		display: none;
-  	}
-
-  	/**  HOME PAGE **/
-
-}
-
-/********** Extra small devices only **********/
-@media (min-width: 572px) and (max-width: 767px) {
-  /* Header */
-  /* ---Memu Button */
-  	.navbar-toggle {
-  		display: none;
-  	}  /* --- End Memu Button */
-  	#nav-list {
-  		display: none;
-  	}
- 
-}
-
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
+@media (max-width: 480px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
+    padding-top: 20px;
     font-size: 6vw;
   }
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
