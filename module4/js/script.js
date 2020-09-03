@@ -36,6 +36,10 @@ company.ceo.favColor = "Blue";*/
 // console.log(facebook.ceo.firstName);
 
 
+// -----Arrays------------
+
+
+
 
 
 
