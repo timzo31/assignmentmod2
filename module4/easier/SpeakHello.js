@@ -35,14 +35,14 @@
 
 (function(window){
 
-  var yaakovGreet = {};
-  yaakovGreet.greeting  = "TIMERA";
+  var helloSpeaker = {};
+  
   var speakWord = "Hello";
 
-  yaakovGreet.sayHello = function (){
-  	console.log(speakWord + " " + yaakovGreet.greeting);
+  helloSpeaker.speak = function (name){
+  	console.log(speakWord + " " + name);
   }
 
-  window.yaakovGreet = yaakovGreet;
+  window.helloSpeaker = helloSpeaker;
 
 })(window);
