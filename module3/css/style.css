@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #7D080A;
   font-family: 'Oxygen', sans-serif;
 }
 .container {
@@ -13,12 +13,12 @@ body {
 	padding: ;
 }
 #body-container.container {
-	background-color: #b3ebf0;
+	background-color: #7D0B0D;
 	height: 1000px;
 }
 /** HEADER **/
 #header-nav {
-  background-color: #1e2222;
+  background-color: #ECC007;
   border-radius: 0;
   border: 0;
   margin-bottom: 0px;
@@ -30,6 +30,12 @@ body {
 	margin-top: -15px;
 	text-decoration: none;
 }
+#logo-img {
+	background: url("../../../Desktop/Tests/images/restaurant-logo_large.png") no-repeat;
+	width: auto;
+	height: auto;
+}
+
 .navbar-brand span {
 	text-transform: uppercase;
 }
@@ -45,7 +51,7 @@ body {
 }
 #nav-list li a {
 	font-size: 1.2em;
-	color: #f26722;
+	color: #F46722;
 	font-weight: bold;
 }
 #nav-list li a:hover, #nav-list li a:focus, #nav-list li:hover {
