@@ -98,7 +98,8 @@ function buildAndShowHomeHTML (categories) {
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
     function (homeHtml) {
-      
+        // document.querySelector('#main-content')
+        //   .insertHtml = homeHtml;
 
 
     
